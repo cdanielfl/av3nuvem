@@ -141,3 +141,16 @@ Abra o navegador em: `http://localhost:3000`
 - ✅ Criado package.json com dependências
 - ✅ Arquivo .env para variáveis de ambiente
 - ✅ Scripts npm para desenvolvimento e produção
+
+
+
+
+sq para o supabase
+
+CREATE TABLE products (
+  id BIGSERIAL PRIMARY KEY,
+  name TEXT NOT NULL,
+  description TEXT NOT NULL,
+  price DECIMAL(10,2) NOT NULL,
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
