@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "🚀 Deploy Node.js - Frontend + Backend"
-echo "====================================="
+echo "🚀 Iniciando aplicação..."
+echo "========================"
 
 # Instalar Node.js se não existir
 if ! command -v node &> /dev/null; then
